@@ -153,7 +153,8 @@ ul.navigation a:hover {
 }
 
 .local-navigation ul li a {
-    padding: 10px 15px; /* Padding for clickable area */
+    font-size: 24px; /* Increase the font size */
+    padding: 15px 20px; /* Adjust padding if necessary */
     border-radius: 5px; /* Rounded corners for links */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
@@ -164,4 +165,38 @@ ul.navigation a:hover {
     background-color: #b2b2b3;
     transform: scale(1.1); /* Slightly scale the link on hover */
     color: #000000; /* Change color to black on hover */
+}
+
+.destination-content {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+}
+
+.destination-content h1 {
+    font-size: 36px; /* Main heading size */
+    margin-bottom: 20px;
+}
+
+.destination-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.destination-content h2 {
+    font-size: 28px;
+    margin: 30px 0 15px;
+    color: #ff6f61; /* Coral red for sub-headings */
+}
+
+.destination-content ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.destination-content ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
 }
