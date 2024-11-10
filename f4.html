@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!-- Navigation menu -->
+
     <ul class="navigation">
         <li><a href="index.html">Home</a></li>
         <li><a href="f2.html">Destinations</a></li>
@@ -17,23 +17,53 @@
         <li><a href="f4.html">About us</a></li>
     </ul>
 
-    <!-- Hero image section -->
     <div class="image-container">
-        <img src="./images/aboutus.jpg" alt="Destination Image" class="background-image">
+        <img src="./images/aboutus.jpg" alt="About GoEurope" class="background-image">
     </div>
 
-    <!-- About GoEurope section -->
     <div class="summary-text">
         <h1>About GoEurope</h1>
         <p>GoEurope is a leading travel agency specializing in unforgettable European adventures. With curated packages
             and customizable itineraries, we ensure our travelers experience Europe’s rich culture, breathtaking
             landscapes, and vibrant cities. Join us and discover Europe like never before!</p>
+        <p>GoEurope is a leading travel agency specializing in unforgettable European adventures. With curated packages
+            and customizable itineraries, we ensure our travelers experience Europe’s rich culture, breathtaking
+            landscapes, and vibrant cities. Join us and discover Europe like never before!</p>
+
+        <h2>Our Commitment to the Environment</h2>
+        <p>At GoEurope, we are committed to sustainability and minimizing our environmental impact. We prioritize
+            eco-friendly
+            practices such as partnering with airlines that have carbon offset programs, offering green accommodations,
+            and
+            promoting sustainable travel options. We aim to ensure that your European adventures not only create
+            unforgettable
+            memories but also contribute to preserving the beauty of our planet.</p>
+    </div>
+    <div class="faq-section">
+        <h2>Frequently Asked Questions (FAQ)</h2>
+        <div class="faq-item">
+            <h3>What destinations does GoEurope offer?</h3>
+            <p>We offer a wide range of European destinations including top cities, historic landmarks, and scenic
+                locations. Our packages are customizable to suit your preferences.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How can I book a trip with GoEurope?</h3>
+            <p>You can easily book your trip online through our website by selecting your preferred destination and
+                package, or contact our customer service team for assistance.</p>
+        </div>
+        <div class="faq-item">
+            <div class="faq-item">
+                <h3>Does GoEurope accommodate travelers with special needs or allergies?</h3>
+                <p>Yes, GoEurope is committed to ensuring all travelers have a comfortable experience. We offer special
+                    assistance for passengers with mobility challenges and cater to dietary restrictions and allergies.
+                    Please inform us in advance so we can ensure proper arrangements. Use our contact form for more
+                    information.</p>
+            </div>
+
+        </div>
     </div>
 
-    <!-- Contact Form section -->
-
     <body>
-        <!-- Kontaktformulär -->
         <div class="contact-form" id="contact-form">
             <h2>Contact Us</h2>
             <form action="#thankyou" method="get">
@@ -43,20 +73,31 @@
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required><br><br>
 
+                <label for="inquiry-type">Inquiry Type:</label><br>
+                <select id="inquiry-type" name="inquiry-type" required>
+                    <option value="">Select an option</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="booking">Booking Question</option>
+                    <option value="support">Customer Support</option>
+                    <option value="feedback">Feedback</option>
+                </select><br><br>
+
                 <label for="subject">Subject:</label><br>
                 <input type="text" id="subject" name="subject"><br><br>
 
                 <label for="message">Message:</label><br>
                 <textarea id="message" name="message" rows="4" required></textarea><br><br>
 
-                <button type="submit">Submit</button>
+                <input type="submit" value="Submit">
             </form>
-        </div>
 
-        <!-- Tack-meddelande som visas efter formulär skickas -->
-        <div id="thankyou" class="thankyou-message">
-            <p>Thank you for your message! We will get back to you soon.</p>
         </div>
     </body>
+
+    <footer>
+        <p>&copy; 2024 EuropeGO. All rights reserved.</p>
+    </footer>
+</body>
+
 
 </html>
